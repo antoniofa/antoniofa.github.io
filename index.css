@@ -1,0 +1,25 @@
+/* uses the IBM-VGA8 font from the Ultimate Oldschool PC Font Pack,
+ * see http://int10h.org/oldschool-pc-fonts/ */
+@font-face { font-family:"fixed"; src:url("fixed.ttf") }
+body { font-family:"fixed"; line-height:1em;
+  margin:0; padding:.1em .5em }
+* { font-style:normal; font-weight:normal; font-size:16px }
+ul { list-style:square; padding:0; margin:.5em 1em }
+li { margin:.1em }
+h2 { text-decoration:underline; margin:1.5em 0; font-size:20px }
+h3,h4 { margin:.5em 0 .2em 0 }
+a:link { text-decoration:none }
+#switch-css { font-size:8px }
+
+html  { background:#2f2f2f }
+body  { color:#00aa00 }
+h2    { color:#55ff55 }
+h3    { color:#55ffff }
+h4,b  { color:#00ff00 }
+i     { color:#ffff55 }
+a:link,a:active,a:visited { color:#5555ff }
+a:hover { color:#000000; background:#aaaaaa }
+::selection         { color:#000000; background:#00aa00 }
+::-moz-selection    { color:#000000; background:#00aa00 }
+::-ms-selection     { color:#000000; background:#00aa00 }
+::-webkit-selection { color:#000000; background:#00aa00 }
